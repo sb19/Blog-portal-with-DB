@@ -9,7 +9,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 //mongodb atlas connection
 mongoose.connect(
-  "mongodb+srv://shubham:19091995@cluster0.3x7kg.mongodb.net/BlogsDB",
+  "mongodb+srv://shubham:<password>@cluster0.3x7kg.mongodb.net/BlogsDB",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
